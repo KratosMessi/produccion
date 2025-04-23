@@ -13,7 +13,7 @@ spec:
         app: proyecto-ikasenpresa
     spec:
       containers:
-        - name: proyecto-ikasenpresa
+        - name: proyecto_ikasenpresa
           image: kratosmessi1/proyecto_ikasenpresa:1.0.0-22
           resources:
             limits:
