@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: proyecto-ikasenpresa
-          image: https://hub.docker.com/repository/docker/kratosmessi1/proyeco_ikasenpresa/tags/1.0.0-22
+          image: https://hub.docker.com/repository/docker/kratosmessi1/proyeco_ikasenpresa
           resources:
             limits:
               memory: "256Mi"
