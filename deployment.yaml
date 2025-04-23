@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: proyecto_ikasenpresa
+  name: proyecto-ikasenpresa
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: proyecto_ikasenpresa
+      app: proyecto-ikasenpresa
   template:
     metadata:
       labels:
-        app: proyecto_ikasenpresa
+        app: proyecto-ikasenpresa
     spec:
       containers:
-        - name: proyecto_ikasenpresa
+        - name: proyecto-ikasenpresa
           image: kratosmessi1/proyecto_ikasenpresa:1.0.0-22
           resources:
             limits:
