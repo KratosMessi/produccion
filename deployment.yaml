@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: proyecto-ikasenpresa
-          image: kratosmessi1/proyeco_ikasenpresa:1.0.0-30
+          image: kratosmessi1/proyeco_ikasenpresa:1.0.0-38
           resources:
             limits:
               memory: "256Mi"
