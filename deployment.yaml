@@ -14,10 +14,14 @@ spec:
     spec:
       containers:
         - name: proyecto-ikasenpresa
-          image: kratosmessi1/proyeco_ikasenpresa:1.0.0-38
+          image: kratosmessi1/proyeco_ikasenpresa:1.0.0-39
           resources:
             limits:
               memory: "256Mi"
               cpu: "500m"
           ports:
             - containerPort: 8080
+
+
+
+
